@@ -13,21 +13,20 @@ class B1{
 		int a;
 		int b;
 		
-		public:
-			
-			void set(){
+    public:
+	void set(){
 				
-				cout<<"Enter 1st Number : ";
-				cin>>a;
+		cout<<"Enter 1st Number : ";
+		cin>>a;
 				
-				cout<<"Enter 2nd Number : ";
-				cin>>b;
+		cout<<"Enter 2nd Number : ";
+		cin>>b;
 				}
 				
 			
-			void get(){
+     void get(){
 				
-				cout<<"Your Totle Addition Is : "<<a+b<<endl;
+	     cout<<"Your Totle Addition Is : "<<a+b<<endl;
 				
 			}
 };
