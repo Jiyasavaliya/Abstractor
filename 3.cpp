@@ -3,24 +3,23 @@ using namespace std;
 class user{
 	
 	private:
-		int a;
-		public:
-			int b;
-			protected:
-				int c;
+	   int a;
+	public:
+	   int b;
+	protected:
+	   int c;
 				
 };
 class student : public user{
 	
 	public:
-		
-		void display(){
+	   void display(){
 			
-			b=20;
-			cout<<b<<endl;
+		b=20;
+		cout<<b<<endl;
 			
-			c=30;
-			cout<<c;
+		c=30;
+		cout<<c;
 			
 		}
 };
