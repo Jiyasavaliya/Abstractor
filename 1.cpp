@@ -1,39 +1,18 @@
 #include<iostream>
 using namespace std;
-
-class A1{
+class A{
 	
- virtual void print() = 0; 
+	virtual void print() = 0;
 };
-
-class B1{
+class B : public A{
 	
 	public:
-		
-		int a;
-		int b;
-		
-    public:
-	void set(){
-				
-		cout<<"Enter 1st Number : ";
-		cin>>a;
-				
-		cout<<"Enter 2nd Number : ";
-		cin>>b;
-				}
-				
-			
-     void get(){
-				
-	     cout<<"Your Totle Addition Is : "<<a+b<<endl;
-				
-			}
+		void print(){
+		cout<<"JEEYA";
+}
 };
 int main(){
 	
-	B1 obj;
-	
-	obj.set();
-	obj.get();
+	B obj;
+	obj.print();
 }
